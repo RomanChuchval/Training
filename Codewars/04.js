@@ -9,7 +9,7 @@ name + " does not play banjo"
 Names given are always valid strings. */
 
 function areYouPlayingBanjo(name) {
-    if (name[0] === "R" || name[0] === "r") {
+    if (name[0] === "R" || name[0] === "r") { /* or if (name[0] === "R" || name[0] === "R".toLowerCase()) */
         return name + " plays banjo"
     } else {
     return name + " does not play banjo"
