@@ -3,3 +3,9 @@
 function noSpace(x){
     return x.replace(/\s/g, '');
 };
+
+/* more simple and readable solution
+
+function noSpace(x){
+    return x.split(' ').join('');
+} */
