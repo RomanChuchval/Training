@@ -1,6 +1,11 @@
 /* Assign the contents of a to variable b. */
 
-let a;
+/* let a;
 a = 7;
 let b;
-b = a;
+b = a; */
+
+// Initializing Variables with the Assignment Operator
+
+let myVar = 0;
+let a = 9;
