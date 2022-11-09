@@ -77,7 +77,7 @@ const quotient = 66 / 33;
 
 // Change the code to use the ++ operator on myVar.
 
-let myVar = 87;
+let myVariable = 87;
 
 // Only change code below this line
-myVar ++;
+myVariable ++;
