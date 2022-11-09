@@ -9,3 +9,9 @@ b = a; */
 
 let myVar = 0;
 let a = 9;
+
+// Declare String Variables
+
+let myFirstName = 'Roman'
+let myLastName = 'Chuchval'
+
