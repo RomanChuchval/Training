@@ -59,3 +59,10 @@ console.log(FCC, fact); // Change this line
 // Change the 0 so that sum will equal 20.
 
 const sum = 10 + 10;
+
+/* Subtract One Number from Another with JavaScript
+We can also subtract one number from another.
+
+JavaScript uses the - symbol for subtraction. */
+
+const difference = 45 - 33;
