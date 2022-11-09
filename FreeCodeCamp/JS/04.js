@@ -81,3 +81,9 @@ let myVariable = 87;
 
 // Only change code below this line
 myVariable ++;
+
+// Decrement a Number with JavaScript
+
+let myVar2 = 11;
+// Only change code below this line
+myVar2 --;
