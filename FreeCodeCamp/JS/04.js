@@ -30,3 +30,21 @@ var c = 'I am a';
 a = a + 1;
 b = b + 5;
 c = c + " String!"
+
+/* 
+studlyCapVar should be defined and have a value of 10.
+Passed: properCamelCase should be defined and have a value of the string A String.
+Passed: titleCaseOver should be defined and have a value of 9000.
+Passed: studlyCapVar should use camelCase in both declaration and assignment sections.
+Passed: properCamelCase should use camelCase in both declaration and assignment sections.
+Passed: titleCaseOver should use camelCase in both declaration and assignment sections. */
+
+// Variable declarations
+var studlyCapVar;
+var properCamelCase;
+var titleCaseOver;
+
+// Variable assignments
+studlyCapVar = 10;
+properCamelCase = "A String";
+titleCaseOver = 9000;
