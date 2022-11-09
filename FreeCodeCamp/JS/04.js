@@ -93,3 +93,7 @@ myVar2 --;
 const ourDecimal = 5.7;
 // Only change code below this line
 let myDecimal = 12.3;
+
+// Multiply Two Decimals with JavaScript
+
+const dec = 2.0 * 2.5;
