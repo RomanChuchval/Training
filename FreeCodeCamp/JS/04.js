@@ -187,3 +187,11 @@ const someAdjective = "cool!";
 let myString4 = "Learning to code is ";
 myString4 += someAdjective
 
+//Find the Length of a String
+
+// Setup
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+// Only change code below this line
+lastNameLength = lastName.length;
