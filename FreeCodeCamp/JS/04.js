@@ -176,3 +176,7 @@ const myDoubleStr = "This is the start. "+"This is the end.";
 let myString2 = 'This is the first sentence. ';
 myString2 += 'This is the second sentence.'
 
+//Constructing Strings with Variables
+
+const myName = "Roman";
+const myString3 = "My name is " + myName + " and I an well!";
