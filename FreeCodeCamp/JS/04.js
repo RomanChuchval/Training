@@ -180,3 +180,10 @@ myString2 += 'This is the second sentence.'
 
 const myName = "Roman";
 const myString3 = "My name is " + myName + " and I an well!";
+
+//Appending Variables to Strings
+
+const someAdjective = "cool!";
+let myString4 = "Learning to code is ";
+myString4 += someAdjective
+
