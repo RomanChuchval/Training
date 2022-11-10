@@ -221,3 +221,11 @@ const lastName4 = "Lovelace";
 
 // Only change code below this line
 const thirdLetterOfLastName = lastName4[2]; // Change this line
+
+// Use Bracket Notation to Find the Last Character in a String
+
+// Setup
+const lastName5 = "Lovelace";
+
+// Only change code below this line
+const lastLetterOfLastName = lastName5[lastName5.length -1]; // Change this line
