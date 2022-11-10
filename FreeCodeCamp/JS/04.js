@@ -167,3 +167,6 @@ const threeStrings = "FirstLine\n\t\\SecondLine\nThirdLine";
 //    \SecondLine
 // ThirdLine
 
+// Concatenating Strings with Plus Operator
+
+const myDoubleStr = "This is the start. "+"This is the end.";
