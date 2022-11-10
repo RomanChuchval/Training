@@ -213,3 +213,11 @@ let myString5 = "Jello World";
 // Only change code below this line
 myString5 = "Hello World"; // Change this line
 // Only change code above this line
+
+//Use Bracket Notation to Find the Nth Character in a String
+
+// Setup
+const lastName4 = "Lovelace";
+
+// Only change code below this line
+const thirdLetterOfLastName = lastName4[2]; // Change this line
