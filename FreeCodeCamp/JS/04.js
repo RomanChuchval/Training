@@ -205,4 +205,11 @@ const lastName2 = "Lovelace";
 // Only change code below this line
 firstLetterOfLastName = lastName2[0]; // Change this line
 
-//
+//Understand String Immutability
+
+// Setup
+let myString5 = "Jello World";
+
+// Only change code below this line
+myString5 = "Hello World"; // Change this line
+// Only change code above this line
