@@ -154,3 +154,7 @@ c /= 11;
 //I am a "double quoted" string inside "double quotes".
 
 const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+
+//Quoting Strings with Single Quotes
+
+const myString = '<a href="http://www.example.com" target="_blank">Link</a>';
