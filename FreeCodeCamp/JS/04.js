@@ -255,3 +255,7 @@ const myArray = ['Roman', 11];
 
 //Nest one Array within Another Array
 const myArray2 = [11 ['roman'], ['nord']];
+
+//Access Array Data with Indexes
+const myArray3 = [50, 60, 70];
+const myData = myArray3[0];
