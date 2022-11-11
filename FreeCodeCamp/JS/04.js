@@ -253,3 +253,5 @@ const wordBlanks = "My "+ myNoun + " was really " + myAdjective + " but he can "
 
 const myArray = ['Roman', 11];
 
+//Nest one Array within Another Array
+const myArray2 = [11 ['roman'], ['nord']];
