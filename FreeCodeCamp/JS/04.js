@@ -259,3 +259,7 @@ const myArray2 = [11 ['roman'], ['nord']];
 //Access Array Data with Indexes
 const myArray3 = [50, 60, 70];
 const myData = myArray3[0];
+
+//Modify Array Data With Indexes
+const myArray4 = [18, 64, 99];
+myArray4[0] = 45;
