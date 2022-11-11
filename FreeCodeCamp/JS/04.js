@@ -237,3 +237,14 @@ const lastName6 = "Lovelace";
 
 // Only change code below this line
 const secondToLastLetterOfLastName = lastName6[lastName6.length -2]; // Change this line
+
+// world blanks
+
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+// Only change code below this line
+const wordBlanks = "My "+ myNoun + " was really " + myAdjective + " but he can " + myVerb + " " + myAdverb + "."; // Change this line
+// console.log(wordBlanks); -> My dog was really big but he can ran quickly.
