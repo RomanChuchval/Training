@@ -6,3 +6,12 @@ function functionWithArgs(n, i) {
 }
 functionWithArgs(1,2);
 functionWithArgs(7,9);
+
+// Create a function timesFive that accepts one argument, multiplies it by 5, and returns the new value.
+
+function timesFive(number) {
+    return number * 5;
+}
+timesFive(5)
+timesFive(2)
+timesFive(0)
