@@ -313,3 +313,11 @@ const myList = [
     ['meat', 1.5],
     ['pepsi', 1]
 ];
+
+// Create a function called reusableFunction which prints the string Hi World to the dev console.
+// Call the function.
+
+function reusableFunction() {
+    console.log('Hi World')
+}
+reusableFunction()
