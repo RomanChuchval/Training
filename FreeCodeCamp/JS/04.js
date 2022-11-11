@@ -297,3 +297,9 @@ const myArray8 = [["John", 23], ["dog", 3]];
 
 // Only change code below this line
 const removedFromMyArray8 = myArray8.shift()
+
+// Manipulate Arrays With unshift()
+
+const myArray9 = [["John", 23], ["dog", 3]];
+myArray9.shift();
+myArray9.unshift(['Paul', 35])
