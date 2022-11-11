@@ -303,3 +303,13 @@ const removedFromMyArray8 = myArray8.shift()
 const myArray9 = [["John", 23], ["dog", 3]];
 myArray9.shift();
 myArray9.unshift(['Paul', 35])
+
+// Create a shopping list in the variable myList. The list should be a multi-dimensional array containing several sub-arrays.
+
+const myList = [
+    ['eggs', 10],
+    ['apple', 6],
+    ['milk', 1],
+    ['meat', 1.5],
+    ['pepsi', 1]
+];
