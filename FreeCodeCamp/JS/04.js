@@ -248,3 +248,8 @@ const myAdverb = "quickly";
 // Only change code below this line
 const wordBlanks = "My "+ myNoun + " was really " + myAdjective + " but he can " + myVerb + " " + myAdverb + "."; // Change this line
 // console.log(wordBlanks); -> My dog was really big but he can ran quickly.
+
+// Modify the new array myArray so that it contains both a string and a number (in that order).
+
+const myArray = ['Roman', 11];
+
