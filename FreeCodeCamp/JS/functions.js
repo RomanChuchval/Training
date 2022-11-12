@@ -101,3 +101,13 @@ console.log("After: " + JSON.stringify(testArr));
 function welcomeToBooleans() {
     return true; // Change this line
 }
+
+//Use Conditional Logic with If Statements
+
+function trueOrFalse(wasThatTrue) {
+    // Only change code below this line
+    if (wasThatTrue) {
+    return "Yes, that was true"
+    } 
+    return "No, that was false"
+}
