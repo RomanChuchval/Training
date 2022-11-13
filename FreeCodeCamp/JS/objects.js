@@ -92,3 +92,25 @@ function phoneticLookup(val) {
         }
             return "Not Found"
     }
+
+// Manipulating Complex Objects
+
+const myMusic = [
+    {
+    "artist": "AFI",
+    "title": "Toxic",
+    "release_year": 2007,
+    "formats": ['CD', 'Blue-ray']
+    },
+    {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+        "CD",
+        "8T",
+        "LP"
+    ],
+    "gold": true
+    }
+];
