@@ -67,3 +67,19 @@ const myDog = {
     "bark": "woof"
 };
 delete myDog.tails
+
+//Using Objects for Lookups
+
+function phoneticLookup(val) {
+    let lookup = {
+        "alpha": "Adams",
+        "bravo": "Boston",
+        "charlie": "Chicago",
+        "delta": "Denver",
+        "echo": "Easy",
+        "foxtrot": "Frank"
+    };
+    let result = lookup[val];
+    return result;
+    }
+    phoneticLookup("charlie");
