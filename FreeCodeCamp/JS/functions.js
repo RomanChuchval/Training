@@ -270,3 +270,20 @@ function orderMyLogic(val) {
     }
 }
 orderMyLogic(7);
+
+// Chaining If Else Statements
+
+function testSize(num) {
+    if (num <= 4) {
+        return "Tiny"
+    } else if (num <= 8) {
+        return "Small"
+    } else if (num <= 14) {
+        return "Medium"
+    } else  if (num <= 17){
+        return "Large"
+    } else {
+        return "Huge";
+    }
+}
+testSize(7);
