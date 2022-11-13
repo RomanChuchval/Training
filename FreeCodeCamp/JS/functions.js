@@ -131,3 +131,13 @@ function testStrict(val) {
     return "Not Equal";
 }
 testStrict(10);
+
+// Modify the function so that it returns the string Equal only when the values are strictly equal.
+
+function compareEquality(a, b) {
+    if (typeof 'a' === b) { 
+        return "Equal";
+    }
+    return "Not Equal";
+    }
+compareEquality(10, "10");
