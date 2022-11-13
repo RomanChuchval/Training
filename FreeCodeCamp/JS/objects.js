@@ -36,3 +36,13 @@ const testObj3 = {
 };
 const playerNumber = 16;  // Change this line
 const player = testObj3[playerNumber]; 
+
+// Updating Object Properties
+
+const myHappyDog = {
+    "name": "Coder",
+    "legs": 4,
+    "tails": 1,
+    "friends": ["freeCodeCamp Campers"]
+};
+myDog.name = 'Happy Coder'
