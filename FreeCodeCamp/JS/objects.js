@@ -16,3 +16,13 @@ const testObj = {
 };
 const hatValue = testObj.hat;
 const shirtValue = testObj.shirt;    
+
+// Accessing Object Properties with Bracket Notation
+
+const testObj2 = {
+    "an entree": "hamburger",
+    "my side": "veggies",
+    "the drink": "water"
+};
+const entreeValue = testObj2['an entree'];
+const drinkValue = testObj2['the drink'];
