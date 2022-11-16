@@ -16,3 +16,11 @@ let t = 1;
     }
 
 // myArray should equal [1, 2, 3, 4, 5].
+
+// Iterate Odd Numbers With a For Loop
+const myArray3 = [];
+let k = 1;
+for (k = 1; k < 10; k += 2) {
+    myArray3.push(k);
+}
+// myArray3 should equal [1, 3, 5, 7, 9].
