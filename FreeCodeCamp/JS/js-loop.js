@@ -42,3 +42,18 @@ let total = 0;
         total += myArr[i]
 }
 //Passed: total should equal 20.
+
+//Nesting For Loops
+
+function multiplyAll(arr) {
+    let product = 1;
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr[i].length; j++) {
+            product *= arr[i][j];
+        }
+    }
+    return product;
+}
+multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
+
+// 1 * 2 * 3 * 4 * 5 * 6 * 7 > output 5040 .
