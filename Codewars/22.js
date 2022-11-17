@@ -8,9 +8,8 @@ Example(Input => Output):
 0 => [0] */
 
 function digitize(n) {
-    return String(n).split('').reverse().map(Number)
+    return String(n).split("").reverse().map(Number);
 };
-
 // tests
 /* const chai = require("chai");
 const assert = chai.assert;
