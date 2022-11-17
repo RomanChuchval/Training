@@ -57,3 +57,14 @@ function multiplyAll(arr) {
 multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
 
 // 1 * 2 * 3 * 4 * 5 * 6 * 7 > output 5040 .
+
+// Iterate with JavaScript Do...While Loops
+
+const myArrayDo = [];
+let r = 10;
+
+// Only change code below this line
+do {
+    myArrayDo.push(r);
+    r++;
+} while (r < 5)
