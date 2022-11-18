@@ -78,3 +78,19 @@ function sum(arr, n) {
         return sum(arr, n - 1) + arr [n - 1]
     }
 }
+
+// Profile lookup
+
+function lookUpProfile(name, prop) {
+    for (let i = 0; i < contacts.length; i++) {
+        if (name == contacts[i]['firstName'] && contacts[i].hasOwnProperty(prop)) {
+        return contacts[i][prop]
+        }
+    } for(let r = 0; r < contacts.length; r++) {
+        if (name != contacts[r].firstName) {
+        return 'No such contact'
+        } else if (!contacts[r].hasOwnProperty(prop)) {
+        return 'No such property'
+        }
+    }
+}
