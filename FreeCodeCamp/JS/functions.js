@@ -458,3 +458,8 @@ function cc(card) {
     }
 }
 cc(2); cc(3); cc(7); cc('K'); cc('A');
+
+// return random number 0 > 0.99
+
+const randomNumber = () => Math.random()
+console.log(randomNumber);
