@@ -469,3 +469,10 @@ console.log(randomNumber);
 function randomWholeNum() {
     return Math.floor(Math.random()*10);
 }
+
+// Use the parseInt Function
+
+function convertToInteger(str) {
+    return parseInt(str)
+}
+convertToInteger("56");
