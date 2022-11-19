@@ -463,3 +463,9 @@ cc(2); cc(3); cc(7); cc('K'); cc('A');
 
 const randomNumber = () => Math.random()
 console.log(randomNumber);
+
+// Generate Random Whole Numbers with JavaScript
+
+function randomWholeNum() {
+    return Math.floor(Math.random()*10);
+}
