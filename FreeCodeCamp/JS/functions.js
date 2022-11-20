@@ -498,3 +498,15 @@ function checkSign(num) {
         : 'zero'
 }
     checkSign(10);
+
+// Recursion
+
+function countdown(n){
+    if (n < 1) {
+        return []
+    } else {
+        const coundownArr = countdown(n - 1)
+        coundownArr.unshift(n)
+        return coundownArr;
+    }
+}
