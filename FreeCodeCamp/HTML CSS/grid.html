@@ -29,12 +29,14 @@
                 width: 100%;
                 min-height: 500px;
                 background: LightGray;
-                /* Only change code below this line */
                 display: grid;
                 grid-template-columns: 1fr 100px 2fr;
                 grid-gap: 10px 20px;
                 align-items: end;
-                /* Only change code above this line */
+                grid-template-areas:
+                    "header header header"
+                    "advert content content"
+                    "footer footer footer";
             }
         </style>
 
