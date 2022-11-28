@@ -34,3 +34,16 @@ const LOCAL_FORECAST = {
 const {today: {low: lowToday, high: highToday2}} = LOCAL_FORECAST;
 console.log(lowToday); // 64
 console.log(highToday); // 77
+
+// Use Destructuring Assignment with the Rest Parameter to Reassign Array Elements
+
+function removeFirstTwo(list) {
+  // Only change code below this line
+  const [a, b, ...shorterList] = list; // Change this line
+  // Only change code above this line
+  return shorterList;
+}
+
+const source = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const sourceWithoutFirstTwo = removeFirstTwo(source);
+// return [3, 4, 5, 6, 7, 8, 9, 10]
