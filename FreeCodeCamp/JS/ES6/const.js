@@ -89,3 +89,16 @@ const failuresList = makeList(result.failure);
 
 const createPerson = (name, age, gender) => ({name, age, gender})
 // output createPerson("Zodiac Hasbro", 56, "male") should return {name: "Zodiac Hasbro", age: 56, gender: "male"}.
+
+// Write Concise Declarative Functions with ES6
+
+// Only change code below this line
+const bicycle = {
+  gear: 2,
+  setGear (newGear) {
+    this.gear = newGear;
+  }
+};
+// Only change code above this line
+bicycle.setGear(3);
+console.log(bicycle.gear);
