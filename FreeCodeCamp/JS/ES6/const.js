@@ -84,3 +84,8 @@ const failuresList = makeList(result.failure);
   '<li class="text-warning">var-on-top</li>',
   '<li class="text-warning">linebreak</li>'
 ] */
+
+// Write Concise Object Literal Declarations Using Object Property Shorthand
+
+const createPerson = (name, age, gender) => ({name, age, gender})
+// output createPerson("Zodiac Hasbro", 56, "male") should return {name: "Zodiac Hasbro", age: 56, gender: "male"}.
