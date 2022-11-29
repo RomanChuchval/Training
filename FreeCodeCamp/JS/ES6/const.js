@@ -102,3 +102,16 @@ const bicycle = {
 // Only change code above this line
 bicycle.setGear(3);
 console.log(bicycle.gear);
+
+// Use class Syntax to Define a Constructor Function
+
+// Only change code below this line
+class Vegetable {
+  constructor(vegetable) {
+    this.name = vegetable;
+  }
+}
+// Only change code above this line
+
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); // Should display 'carrot'
