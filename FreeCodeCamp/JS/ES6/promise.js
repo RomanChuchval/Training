@@ -31,3 +31,7 @@ const ServerRequest = new Promise((resolve, reject) => {
 ServerRequest.then((result) => {
     console.log(result); // We got the data
 });
+
+serverRequest.catch(error => {
+    console.log(error);
+});
