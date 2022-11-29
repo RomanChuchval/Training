@@ -115,3 +115,17 @@ class Vegetable {
 
 const carrot = new Vegetable('carrot');
 console.log(carrot.name); // Should display 'carrot'
+
+// Use getters and setters to Control Access to an Object
+
+class Thermostat {
+  constructor(temp) {
+    this.temp = 5/9 * (temp - 32)
+  }
+  get temperature () {
+    return this.temp
+  }
+  set temperature (updateTemp) {
+    this.temp = updateTemp
+  }
+}
