@@ -34,3 +34,9 @@ let result5 = extractStr.match(codingRegex) // Change this line
 let twinkleStar = "Twinkle, twinkle, little star";
 let starRegex = /twinkle/gi; // Change this line
 let result6 = twinkleStar.match(starRegex); // Change this line
+
+// Match Anything with Wildcard Period
+
+let exampleStr = "Let's have fun with regular expressions!";
+let unRegex = /.un/; // Change this line
+let result7 = unRegex.test(exampleStr);
