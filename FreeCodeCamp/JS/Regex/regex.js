@@ -141,3 +141,9 @@ let result = sample.match(countNonWhiteSpace);
 let ohStr = "Ohhh no";
 let ohRegex = /oh{3,6} no/gi; // Change this line
 let result = ohRegex.test(ohStr);
+
+// Specify Only the Lower Number of Matches
+
+let haStr = "Hazzzzah";
+let haRegex = /haz{4,}ah/gi; // Change this line
+let result = haRegex.test(haStr);
