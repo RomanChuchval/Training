@@ -156,7 +156,6 @@ let result = timRegex.test(timStr);
 
 // Check for All or None
 
-
 let favWord = "favorite";
 let favRegex = /favou?rite/; // Change this line
 let result = favRegex.test(favWord);
@@ -166,3 +165,10 @@ let result = favRegex.test(favWord);
 let sampleWord = "astronaut";
 let pwRegex = /(?=\w{6,})(?=\D*\d{2})/gi; // Change this line
 let result = pwRegex.test(sampleWord);
+
+// Check For Mixed Grouping of Characters
+
+let myString = "Franklin Roosevelt";
+let myRegex = /(Eleanor|Franklin)(\s\w.\s|\s)Roosevelt/;
+let result = myRegex.test(myString);
+console.log(result)
