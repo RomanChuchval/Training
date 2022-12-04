@@ -160,3 +160,9 @@ let result = timRegex.test(timStr);
 let favWord = "favorite";
 let favRegex = /favou?rite/; // Change this line
 let result = favRegex.test(favWord);
+
+// Positive and Negative Lookahead
+
+let sampleWord = "astronaut";
+let pwRegex = /(?=\w{6,})(?=\D*\d{2})/gi; // Change this line
+let result = pwRegex.test(sampleWord);
