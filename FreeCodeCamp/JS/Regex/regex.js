@@ -179,3 +179,10 @@ let repeatNum = "42 42 42";
 let reRegex = /^(\d+) \1 \1$/;
 let result = reRegex.test(repeatNum);
 let result2 = repeatNum.match(reRegex)
+
+// Use Capture Groups to Search and Replace
+
+let str = "one two three";
+let fixRegex = /(\w+)\s(\w+)\s(\w+)/;
+let replaceText = "$3 $2 $1";
+let result = str.replace(fixRegex, replaceText);
