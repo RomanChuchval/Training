@@ -186,3 +186,10 @@ let str = "one two three";
 let fixRegex = /(\w+)\s(\w+)\s(\w+)/;
 let replaceText = "$3 $2 $1";
 let result = str.replace(fixRegex, replaceText);
+
+// Remove Whitespace from Start and End
+
+let hello = "   Hello, World!  ";
+let wsRegex = /(\s{2,})/g; // Change this line
+let result = hello.replace(wsRegex, ''); // Change this line
+console.log(result)
