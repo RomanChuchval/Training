@@ -8,7 +8,7 @@ Example: (Input1, Input2 -->Output)
 "2", "" --> "2"
 "-5", "3" --> "-2" */
 
-function sumStr(a, b) {
+/* function sumStr(a, b) {
     if (a == "" && b == "") {
         return "0";
     } else if (a == "" || b == "") {
@@ -19,4 +19,6 @@ function sumStr(a, b) {
     } else {
         return (a * 1 + b * 1).toString();
     }
-}
+} */
+
+const sumStr = (a, b) => String(a*1 + b*1)
