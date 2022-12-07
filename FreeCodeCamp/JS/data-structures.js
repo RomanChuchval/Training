@@ -250,3 +250,16 @@ function isEveryoneHere(userObj) {
     return false;
     // Only change code above this line
 }
+
+// Iterate Through the Keys of an Object with a for...in Statement
+
+function countOnline(usersObj) {
+    let howMutchOnline = 0;
+    for (let user in usersObj) {
+        if (usersObj[user].online === true) {
+            howMutchOnline++;
+        }
+    }
+    return howMutchOnline;
+}
+console.log(countOnline(users));
