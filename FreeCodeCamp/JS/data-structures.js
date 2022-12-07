@@ -263,3 +263,13 @@ function countOnline(usersObj) {
     return howMutchOnline;
 }
 console.log(countOnline(users));
+
+// Generate an Array of All Object Keys with Object.keys()
+
+function getArrayOfUsers(obj) {
+    // Only change code below this line
+    return Object.keys(obj);
+    // Only change code above this line
+}
+
+console.log(getArrayOfUsers(users));
