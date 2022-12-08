@@ -26,3 +26,12 @@ function factorialize(num) {
 }
 
 console.log(factorialize(15));
+
+// Find the Longest Word in a String
+// Return the length of the longest word in the provided sentence.
+// Your response should be a number.
+
+function findLongestWordLength(str) {
+    let arr = str.split(" ").sort((a, b) => a.length - b.length);
+    return arr[arr.length - 1].length;
+}
