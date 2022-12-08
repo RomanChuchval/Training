@@ -45,3 +45,13 @@ function largestOfFour(arr) {
         });
     });
 }
+
+// Confirm the Ending
+
+function confirmEnding(str, target) {
+    let targetLength = target.length;
+    if (str.substring(str.length - targetLength) == target) {
+        return true;
+    }
+    return false;
+}
