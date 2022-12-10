@@ -104,3 +104,15 @@ function booWho(bool) {
 }
 
 booWho(null);
+
+// Title Case a Sentence
+
+function titleCase(str) {
+    let arr = str.toLowerCase().split(" ");
+    console.log(arr[2].charAt(0).toUpperCase());
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+    }
+    return arr.join(" ");
+}
+console.log(titleCase("HERE IS MY HANDLE HERE IS MY SPOUT"));
