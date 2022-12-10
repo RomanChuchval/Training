@@ -83,4 +83,16 @@ function truncateString(str, num) {
         return string + "...";
     }
 }
-console.log(truncateString("A-tisket a-tasket A green and yellow basket",100));
+console.log(truncateString("A-tisket a-tasket A green and yellow basket", 100));
+
+// Finders Keepers
+
+function findElement(arr, func) {
+    for (let i = 0; i < arr.length; i++) {
+        if (func(arr[i])) {
+            return arr[i];
+        }
+    }
+}
+
+findElement([1, 2, 3, 4], (num) => num % 2 === 0);
