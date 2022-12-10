@@ -55,3 +55,20 @@ function confirmEnding(str, target) {
     }
     return false;
 }
+
+// Repeat a String Repeat a String
+
+function repeatStringNumTimes(str, num) {
+    let result = [];
+    if (num <= 0) {
+        return "";
+    } else {
+        str.split(" ");
+        for (let i = 0; i < num; i++) {
+            result.push(str);
+        }
+    }
+    return result.join("");
+}
+
+repeatStringNumTimes("abc", 3);
